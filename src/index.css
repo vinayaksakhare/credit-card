@@ -11,3 +11,88 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  width: 25rem;
+  height: 21.875rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #03314F;
+  width: 23.75rem;
+  height: 12.5rem;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+input {
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: solid 0.063rem #bababa;
+}
+
+select {
+  font-size: 0.875rem;
+  padding: 0;
+  background: transparent;
+  color: #fff;
+  border: none;
+}
+
+input:focus, select:focus {
+  outline: none;
+}
+
+#cc_name_on_card {
+  text-transform: uppercase;
+}
+
+.card-details-container {
+  margin-bottom: 0.625rem;
+}
+
+.card-details-container input {
+  width: 55%;
+  margin-bottom: 1rem;
+  line-height: 1.625rem;
+}
+
+.card-validity-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 0.625rem;
+}
+
+.card-logo {
+  display: flex;
+  align-self: flex-end;
+  width: 3.438rem;
+  height: 3.438rem;
+}
+
+.card-cvv-container {
+  margin-right: 1.25rem;
+}
+
+.card-cvv-container label{
+  padding-right: 0.625rem;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  background-color: yellow;
+  border: 0.125rem dotted orange;
+}
